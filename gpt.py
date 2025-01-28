@@ -43,9 +43,9 @@ def build_lstm_model(seq_length):
 # Main Code
 if __name__ == "__main__":
     # Fetch stock data
-    ticker = 'AAPL'
-    start_date = '2010-01-01'
-    end_date = '2023-01-01'
+    ticker = 'NVDA'
+    start_date = '2025-01-01'
+    end_date = '2025-01-29'
     data = fetch_stock_data(ticker, start_date, end_date)
 
     # Plot closing price
